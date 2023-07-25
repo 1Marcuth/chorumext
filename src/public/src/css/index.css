@@ -1,0 +1,12 @@
+body {
+    background: #181A1B;
+    color: #fff;
+}
+
+.main-image {
+    max-width: 100%;
+}
+
+.logo-image {
+    width: 200px;
+}

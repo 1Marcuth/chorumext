@@ -1,0 +1,65 @@
+@keyframes from-left {
+    from {
+        opacity: 0;
+        transform: translateX(-3rem);
+    }
+}
+
+@keyframes from-right {
+    from {
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+}
+
+@keyframes from-top {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+}
+
+@keyframes from-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+}
+
+@keyframes logo-animation {
+    from {
+        opacity: 0;
+        transform: rotate(-10deg) translateX(3rem) translateX(1rem) scale(1.1);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg)  translateX(0) translateX(0) scale(1);
+    }
+}
+
+.from-left {
+    animation-name: from-left;
+    animation-duration: .6s;
+}
+
+.from-right {
+    animation-name: from-right;
+    animation-duration: .6s;
+}
+
+.from-top {
+    animation-name: from-top;
+    animation-duration: .6s;
+}
+
+.from-bottom {
+    animation-name: from-bottom;
+    animation-duration: .6s;
+}
+
+.logo-animation {
+    animation: logo-animation;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+}
